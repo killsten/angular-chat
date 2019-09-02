@@ -1,2 +1,24 @@
 @import 'variables';
 @import '../../node_modules/bootstrap/scss/bootstrap';
+
+body {
+    color: $secondary;
+}
+
+.container {
+    height: calc(100vh - 80vh) !important;
+}
+
+.navbar {
+    height: 80px;
+}
+
+button {
+    width: 100%;
+    &.btn {
+        border-radius: 0;
+        &.focus {
+            box-shadow: none;
+        }
+    }
+}
