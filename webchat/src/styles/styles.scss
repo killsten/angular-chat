@@ -5,8 +5,8 @@ body {
     color: $secondary;
 }
 
-.container {
-    height: calc(100vh - 80vh) !important;
+.container-wrapper {
+    height: calc(100vh - 80px) !important;
 }
 
 .navbar {
@@ -17,7 +17,7 @@ button {
     width: 100%;
     &.btn {
         border-radius: 0;
-        &.focus {
+        &:focus {
             box-shadow: none;
         }
     }
